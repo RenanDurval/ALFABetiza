@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -10,6 +10,20 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "ALFABetiza - Alfabetização e Matemática para a Vida Real",
   description: "Aprenda a ler, escrever e matemática básica para o dia a dia.",
+  manifest: "/manifest.json",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "ALFABetiza",
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#3b82f6",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
 };
 
 import { Providers } from "./providers";
