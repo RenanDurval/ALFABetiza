@@ -3,11 +3,10 @@
 import { useLanguage } from "@/context/LanguageContext";
 import { useUser } from "@/context/UserContext";
 import { lessonsData } from "@/data/lessons";
-import { BookOpen, Calculator, CheckCircle, Lock, Play, LogOut, ChevronLeft, ChevronRight, Home, Star, Trophy, Zap, Users } from "lucide-react";
+import { BookOpen, Calculator, CheckCircle, Lock, Play, LogOut, ChevronLeft, ChevronRight, Home, Star, Trophy, Users } from "lucide-react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import ThemeToggle from "@/components/ThemeToggle";
-import { useState, useEffect } from "react";
 
 import { Suspense } from "react";
 
@@ -72,7 +71,7 @@ function DashboardContent() {
   const renderModule = (
     type: 'literacy' | 'math', 
     title: string, 
-    icon: any, 
+    icon: React.ReactNode, 
     colorClass: string, 
     iconBg: string,
     currentPage: number,
@@ -159,7 +158,6 @@ function DashboardContent() {
   const currentLevel = currentUser.level || 1;
   const currentPoints = currentUser.points || 0;
   const POINTS_PER_LEVEL = 100;
-  const nextLevelPoints = currentLevel * POINTS_PER_LEVEL;
   const progress = ((currentPoints % POINTS_PER_LEVEL) / POINTS_PER_LEVEL) * 100;
 
   return (

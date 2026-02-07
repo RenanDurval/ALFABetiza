@@ -9,29 +9,33 @@ O **ALFABetiza** é um aplicativo web progressivo e gamificado, desenvolvido par
 ## ✨ Funcionalidades Principais
 
 ### 📚 Alfabetização (Português)
-*   **Identificação de Letras**: Aprenda o alfabeto de A a Z.
-*   **Formação de Sílabas**: Entenda como as letras se juntam (BA, BE, BI...).
-*   **Completar Palavras**: Exercícios de lacunas (ex: C _ S A).
-*   **Rimas**: Desenvolvimento da consciência fonológica (ex: O que rima com MÃO?).
+
+- **Identificação de Letras**: Aprenda o alfabeto de A a Z.
+- **Formação de Sílabas**: Entenda como as letras se juntam (BA, BE, BI...).
+- **Completar Palavras**: Exercícios de lacunas (ex: C _ S A).
+- **Rimas**: Desenvolvimento da consciência fonológica (ex: O que rima com MÃO?).
 
 ### 🔢 Matemática Básica
-*   **Contagem**: Aprenda a contar objetos e animais.
-*   **Soma Visual**: Adição simples com suporte visual.
-*   **Sistema Monetário**: Conheça as notas e moedas do Real (R$).
-*   **Sequências Numéricas**: Identifique o próximo número (1, 2, 3, _).
+
+- **Contagem**: Aprenda a contar objetos e animais.
+- **Soma Visual**: Adição simples com suporte visual.
+- **Sistema Monetário**: Conheça as notas e moedas do Real (R$).
+- **Sequências Numéricas**: Identifique o próximo número (1, 2, 3, _).
 
 ### 🎮 Gamificação (Engajamento)
-*   **Sistema de Pontos**: Ganhe **Estrelas** ⭐ a cada lição completada.
-*   **Níveis de Jogador**: Evolua de *Novato* a *Lenda* conforme aprende!
-*   **Barra de Progresso**: Acompanhe visualmente sua evolução.
-*   **Feedback Imediato**: Animações e sons de comemoração.
+
+- **Sistema de Pontos**: Ganhe **Estrelas** ⭐ a cada lição completada.
+- **Níveis de Jogador**: Evolua de *Novato* a *Lenda* conforme aprende!
+- **Barra de Progresso**: Acompanhe visualmente sua evolução.
+- **Feedback Imediato**: Animações e sons de comemoração.
 
 ### 🛠️ Recursos Técnicos & Acessibilidade
-*   **Text-to-Speech (TTS)**: O app "fala" as instruções para a criança.
-*   **Vídeos Educativos**: Integração segura com vídeos do YouTube para reforço.
-*   **Modo Escuro**: Suporte a temas Claro e Escuro para conforto visual.
-*   **Multiusuário**: Crie perfis diferentes para cada aluno/filho.
-*   **Offline-First**: Funciona mesmo com internet instável (via Dexie.js).
+
+- **Text-to-Speech (TTS)**: O app "fala" as instruções para a criança.
+- **Vídeos Educativos**: Integração segura com vídeos do YouTube para reforço.
+- **Modo Escuro**: Suporte a temas Claro e Escuro para conforto visual.
+- **Multiusuário**: Crie perfis diferentes para cada aluno/filho.
+- **Offline-First**: Funciona mesmo com internet instável (via Dexie.js).
 
 ---
 
